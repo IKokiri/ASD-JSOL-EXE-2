@@ -6,3 +6,21 @@ POST http://localhost:3000/produtos/ HTTP/1.1
 content-type: application/json
 
 { "descricao": "fEIJÃO 5Kg", "valor": 5.00, "marca": "Tio João"  }
+
+###
+
+GET http://localhost:3000/produtos/41 HTTP/1.1
+content-type: application/json
+
+###
+
+PUT http://localhost:3000/produtos/3 HTTP/1.1
+content-type: application/json
+
+{ "descricao": "123", "valor": 15.00, "marca": "1Tio João"  }
+
+###
+
+DELETE http://localhost:3000/produtos/3 HTTP/1.1
+content-type: application/json
+
