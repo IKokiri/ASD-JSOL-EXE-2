@@ -1,0 +1,24 @@
+{
+  "name": "asd-jsol-exe-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IKokiri/ASD-JSOL-EXE-2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IKokiri/ASD-JSOL-EXE-2/issues"
+  },
+  "homepage": "https://github.com/IKokiri/ASD-JSOL-EXE-2#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
